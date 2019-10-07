@@ -1,6 +1,6 @@
 # ULfyp
 
-Envs = tensorflow1.15.0 + python3 + jupyter + keras
+Envs = tensorflow2.0 + python3.69 + jupyter + keras
 
 Dataset : fashion-mnist
 fashion-mnist: paper: https://arxiv.org/pdf/1708.07747.pdf
