@@ -17,13 +17,11 @@
 
 
 
-# Dataset : fashion-mnist
+# Dataset : DeepFashion 1
 =======
-Envs = tensorflow2.0 + python3.69 + jupyter + keras
+Envs (Main) = tensorflow2.0 + python3.69 + keras + OpenCV
 >>>>>>> a16afb526efbc67f5917f4e2b976ee250284ff5f
 
-fashion-mnist: paper: https://arxiv.org/pdf/1708.07747.pdf
+# To run this project
 
-git: https://github.com/zalandoresearch/fashion-mnist/
-
-scholar: https://scholar.google.de/scholar?hl=en&as_sdt=0%2C5&q=fashion-mnist&btnG=&oq=fas
+python main.py 
