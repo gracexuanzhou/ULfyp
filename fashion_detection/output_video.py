@@ -50,7 +50,7 @@ if __name__ == '__main__':
     net.reset_class(CLASSES)
     net.load_parameters('./params/weight.params')
     #读取视频
-    video = cv2.VideoCapture('D:\\BaiduNetdiskDownload\\fashion.mp4')
+    video = cv2.VideoCapture('Desktop\\fashion.mp4')
     # 接下来获取视频的宽和高
     w = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
     h = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
